@@ -1,22 +1,21 @@
 # next-node-cookie
-> Node cookie for next
+> Node cookie for next.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-node-cookie --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-node-cookie
 ```
 
-## apis:
+## apis
 | api       | params         | description                                      |
 |-----------|----------------|--------------------------------------------------|
 | parse     | inSetCookies[] | parse response set-cookie headers to JSON        |
 | stringify | parseResults[] | stringify JSON to Cookie string for next request |
 
-## usage:
+## usage
 ```js
-import NxNodeCookie from 'next-node-cookie';
+import NxNodeCookie from '@feizheng/next-node-cookie';
 
-// code goes here:
 NxNodeCookie.parse(
   [
     'a_token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NTEzODQ2MjJvkFolg',
@@ -29,6 +28,3 @@ NxNodeCookie.parse(
   ]
 )
 ```
-
-## resources:
-- https://github.com/afeiship
