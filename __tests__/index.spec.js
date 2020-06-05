@@ -1,9 +1,9 @@
-(function() {
+(function () {
   var nx = require('@feizheng/next-js-core2');
   var NxNodeCookie = require('../src/next-node-cookie');
 
-  describe('NxNodeCookie.methods', function() {
-    test('parse', function() {
+  describe('NxNodeCookie.methods', function () {
+    test('parse', function () {
       expect(
         NxNodeCookie.parse([
           'a_token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NTEzODQ2MjJvkFolg',

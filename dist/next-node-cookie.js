@@ -1,32 +1,32 @@
 /*!
  * name: @feizheng/next-node-cookie
  * description: Node cookie for next.
- * url: https://github.com/afeiship/next-node-cookie
- * version: 1.0.0
- * date: 2020-02-22 03:40:01
+ * homepage: https://github.com/afeiship/next-node-cookie
+ * version: 1.0.1
+ * date: 2020-06-05T05:34:27.886Z
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
   var cookieParser = require('set-cookie-parser');
+  var SEMI = ';'
 
   var NxNodeCookie = nx.declare('nx.NodeCookie', {
     statics: {
-      parse: function(inSetCookies) {
+      parse: function (inSetCookies) {
+        var setCookie = typeof inSetCookies === 'string' ? inSetCookies.split(SEMI) : inSetCookies;
         return cookieParser.parse({
-          headers: {
-            'set-cookie': inSetCookies
-          }
+          headers: { 'set-cookie': setCookie }
         });
       },
-      stringify: function(inItems) {
+      stringify: function (inItems) {
         return inItems
-          .map(function(item) {
+          .map(function (item) {
             return item.name + '=' + item.value;
           })
-          .join(';');
+          .join(SEMI);
       }
     }
   });

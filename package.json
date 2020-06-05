@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-node-cookie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node cookie for next.",
   "homepage": "https://github.com/afeiship/next-node-cookie",
   "author": {
@@ -14,25 +14,27 @@
   "main": "dist/next-node-cookie.js",
   "license": "MIT",
   "devDependencies": {
-    "@feizheng/gulp-pkg-header": "^1.0.2",
+    "@feizheng/gulp-pkg-header": "^1.0.4",
     "@feizheng/rake-git": "^1.2.1",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
     "gulp-ignore": "^3.0.0",
-    "gulp-load-plugins": "^2.0.2",
+    "gulp-load-plugins": "^2.0.3",
     "gulp-rename": "^2.0.0",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "jest": "^25.1.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "uglify-js": "3.9.4",
     "uglify-save-license": "^0.4.1",
-    "yargs": "^15.1.0"
+    "yargs": "^15.3.1"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.1",
-    "set-cookie-parser": "^2.4.3"
+    "@feizheng/next-js-core2": "^2.5.0",
+    "set-cookie-parser": "^2.4.6"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
