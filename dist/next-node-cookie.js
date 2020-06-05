@@ -2,8 +2,8 @@
  * name: @feizheng/next-node-cookie
  * description: Node cookie for next.
  * homepage: https://github.com/afeiship/next-node-cookie
- * version: 1.0.1
- * date: 2020-06-05T05:34:27.886Z
+ * version: 1.0.2
+ * date: 2020-06-05T06:05:46.654Z
  * license: MIT
  */
 
