@@ -1,6 +1,5 @@
 (function () {
-  var nx = require('@feizheng/next-js-core2');
-  var NxNodeCookie = require('../src/next-node-cookie');
+  const NxNodeCookie = require('../src');
 
   describe('NxNodeCookie.methods', function () {
     test('parse', function () {

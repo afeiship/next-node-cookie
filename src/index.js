@@ -1,17 +1,8 @@
-/*!
- * name: @feizheng/next-node-cookie
- * description: Node cookie for next.
- * homepage: https://github.com/afeiship/next-node-cookie
- * version: 1.0.2
- * date: 2020-06-05T06:05:46.654Z
- * license: MIT
- */
-
-(function () {
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var cookieParser = require('set-cookie-parser');
-  var SEMI = ';'
+  var SEMI = ';';
 
   var NxNodeCookie = nx.declare('nx.NodeCookie', {
     statics: {
@@ -35,5 +26,3 @@
     module.exports = NxNodeCookie;
   }
 })();
-
-//# sourceMappingURL=next-node-cookie.js.map
