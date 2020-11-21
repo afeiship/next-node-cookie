@@ -3,7 +3,7 @@
  * description: Node cookie for next.
  * homepage: https://github.com/afeiship/next-node-cookie
  * version: 1.0.0
- * date: 2020-11-21 09:53:12
+ * date: 2020-11-21 09:54:07
  * license: MIT
  */
 

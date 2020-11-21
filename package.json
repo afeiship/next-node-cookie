@@ -37,5 +37,12 @@
   },
   "dependencies": {
     "set-cookie-parser": "^2.4.6"
-  }
+  },
+  "keywords": [
+    "next",
+    "node",
+    "cookie",
+    "set-cookie",
+    "cookie-jar"
+  ]
 }
